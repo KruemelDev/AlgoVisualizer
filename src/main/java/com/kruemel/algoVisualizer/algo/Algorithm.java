@@ -1,4 +1,10 @@
 package com.kruemel.algoVisualizer.algo;
 
-public class Algorithm {
+import java.awt.*;
+
+public interface Algorithm {
+    void Step();
+    void Run();
+    void Paint(Graphics2D g2d);
+
 }

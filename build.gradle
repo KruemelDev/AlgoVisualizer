@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.kruemel'
+group = 'com.kruemel.algoVisualizer'
 version = '1.0-SNAPSHOT'
 
 repositories {
