@@ -39,7 +39,7 @@ public class KeyController implements KeyListener {
                 pausePressed = true;
             case KeyEvent.VK_ENTER:
                 if (this.mp.currentAlgorithm != null) {
-                    Thread thread = new Thread(() -> {this.mp.currentAlgorithm.Run();});
+                    Thread thread = new Thread(() -> this.mp.currentAlgorithm.Run());
                     thread.start();
                 }
                 break;
