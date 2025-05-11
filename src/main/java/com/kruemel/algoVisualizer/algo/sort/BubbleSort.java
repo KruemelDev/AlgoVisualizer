@@ -57,7 +57,10 @@ public class BubbleSort implements Algorithm {
             g2d.fillRect(i * colWidth, this.mp.getHeight() - colHeight, colWidth, colHeight);
         }
     }
+    @Override
+    public void Reset(){
 
+    }
     @Override
     public void Paint(Graphics2D g2d) {
         util.DrawTitle(g2d, "Bubble Sort: ");
